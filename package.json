@@ -1,0 +1,28 @@
+{
+  "name": "basic-node-chat",
+  "version": "0.1.0",
+  "description": "The most simple and basic chat created with nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMaRuiz/basic-node-chat.git"
+  },
+  "keywords": [
+    "nodejs",
+    "chat",
+    "javascript",
+    "js"
+  ],
+  "author": "JuanMa Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanMaRuiz/basic-node-chat/issues"
+  },
+  "homepage": "https://github.com/JuanMaRuiz/basic-node-chat#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
