@@ -1,0 +1,14 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pancakes",
+      "motto": "Minion Ipsum dolor sit amet"
+    },
+    {
+      "id": 2,
+      "username": "Pizza ",
+      "motto": "Bazinga Ipsum at restum bazzer run"
+    }
+  ]
+}
