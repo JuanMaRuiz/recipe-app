@@ -25,7 +25,8 @@
   "homepage": "https://github.com/JuanMaRuiz/basic-node-chat#readme",
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
   },
   "devDependencies": {
     "eslint": "^4.1.0",
@@ -33,6 +34,7 @@
     "eslint-tap": "^2.0.1",
     "grunt": "^1.0.1",
     "grunt-eslint": "^20.0.0",
-    "jit-grunt": "^0.10.0"
+    "jit-grunt": "^0.10.0",
+    "mocha": "^3.4.2"
   }
 }
