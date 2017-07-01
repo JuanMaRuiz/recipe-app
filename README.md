@@ -5,3 +5,19 @@ The idea is to build a **Recipe app** using node in the backend and javascript (
 # Structure
 * Server layer.- Serve views
 * Service layer.- Retrieve data from DDBB
+
+```
+// TODO
+.
+├── server-layer
+|   └── ....js
+|   └── user
+|       ├── <file>.js
+|       ├── <file>.js
+|       └── <template>.ejs
+├── service-layer
+|   ├── <file>.js
+|   ├── <file>.js
+|   ├── <file>.js
+|   └── <template>.ejs
+```

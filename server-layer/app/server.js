@@ -3,9 +3,12 @@
 const express = require('express');
 const app = express();
 
-const db = require('./../../service-layer/model/db');
+const dbConnection = require('./../../service-layer/config/db-connection');
 
-console.log('db.getAllRecipes(): ', db.getAllRecipes());
+const recipes = require('./../../service-layer/recipes/recipes');
+
+console.log('db.getAllRecipes(): ', recipes);
+console.log('db.getAllRecipes(): ', recipes.getAllRecipes());
 // set the view engine to ejs
 app.set('views', './server-layer/app/views');
 app.set('view engine', 'ejs');
