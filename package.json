@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "eslint . -c .eslintrc.js",
-    "prepare": "node ./prepare.js",
+    "postinstall": "node ./.scripts/prepare.js",
     "start": "node ./server-layer/app/server.js",
     "test": "nyc --reporter=lcov --reporter=text-summary mocha"
   },
