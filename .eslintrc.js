@@ -11,7 +11,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['src/**/test/*.test.js'],
+      files: ['tests/**/*.test.js'],
       env: { mocha: true },
       rules: {
         'max-nested-callbacks': ['error', 8],
