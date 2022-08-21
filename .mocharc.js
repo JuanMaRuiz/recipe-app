@@ -10,5 +10,5 @@ module.exports = {
   slow: '100',
   timeout: '2000',
   ui: 'bdd',
-  spec: 'tests/*.test.mjs'
+  spec: 'tests/**/*.test.mjs'
 };
