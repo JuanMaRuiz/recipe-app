@@ -1,40 +1,47 @@
 {
-  "name": "basic-node-chat",
+  "name": "recipe-app",
   "version": "0.1.0",
-  "description": "The most simple and basic chat created with nodejs ",
+  "description": "Basic and simple NodeJS recipe app",
   "main": "./server-layer/app/server.js",
+  "engines": {
+    "npm": ">=8.15.0",
+    "node": ">=16.17.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./server-layer/app/server.js"
+    "lint": "eslint . -c .eslintrc.js",
+    "prepare": "node ./prepare.js",
+    "start": "node ./server-layer/app/server.js",
+    "test": "nyc --reporter=lcov --reporter=text-summary mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuanMaRuiz/basic-node-chat.git"
+    "url": "git+https://github.com/JuanMaRuiz/recipe-app.git"
   },
   "keywords": [
     "nodejs",
-    "chat",
+    "api",
     "javascript",
-    "js"
+    "js",
+    "expressjs"
   ],
   "author": "JuanMa Ruiz",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JuanMaRuiz/basic-node-chat/issues"
+    "url": "https://github.com/JuanMaRuiz/recipe-app/issues"
   },
-  "homepage": "https://github.com/JuanMaRuiz/basic-node-chat#readme",
+  "homepage": "https://github.com/JuanMaRuiz/recipe-app#readme",
   "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.3",
-    "mongoose": "^4.11.0"
+    "express": "^4.18.1"
   },
   "devDependencies": {
-    "eslint": "^4.1.0",
-    "eslint-config-google": "^0.8.0",
-    "eslint-tap": "^2.0.1",
-    "grunt": "^1.0.1",
-    "grunt-eslint": "^20.0.0",
-    "jit-grunt": "^0.10.0",
-    "mocha": "^3.4.2"
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "chai": "^4.3.6",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "husky": "^8.0.1",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "sinon": "^14.0.0"
   }
 }

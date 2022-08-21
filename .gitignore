@@ -1,4 +1,7 @@
 node_modules
 .idea
-package-lock.json
-service-layer/config/dbData.js
+.vscode
+
+.nyc_output
+coverage
+DS_Store
